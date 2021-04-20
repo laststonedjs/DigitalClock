@@ -1,0 +1,65 @@
+body {
+
+    background: black;
+}
+.wrapper{
+
+    width: 200px;
+    height: 400px;
+  position: relative;
+    top: 0;
+    left: 0;
+   float: left;
+
+}
+.segment {
+
+    width: 10px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 3px;
+    box-shadow: 0 3px 10px red;
+}
+.s1 {
+
+    transform: rotate(90deg);
+    top: -40px;
+    left: 93px;
+}
+.s2 {
+    top: 40px;
+    left: 14px;
+}
+.s3 {
+    top: 40px;
+    left: 171px;
+}
+.s4 {
+    transform: rotate(90deg);
+    top: 120px;
+    left: 93px
+
+}
+.s5 {
+    top: 200px;
+    left: 14px;
+
+}
+.s6 {
+    top: 200px;
+    left: 172px;
+
+}
+.s7 {
+    transform: rotate(90deg);
+    top: 280px;
+    left: 94px;
+
+}
+.ugasen {
+
+    opacity: .05;
+}
